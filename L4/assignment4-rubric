@@ -1,0 +1,40 @@
+Assignment 4 Rubric
+
+Part I - 5 points
+
+Question 1 - 3 points. Implement inheritance correctly with the ID generation
+and correct instantiation (2 points)
+
+This is going to be a little weird since CargoCycle being a subclass of 
+Bicycle is going to cause some problems and inconsistencies. There are 
+various ways of doing this. Some people might allow bicycles to have their
+number of wheels changed. Others might override the getWheels/setWheels methods
+and create a separate field for that, along with cargo space. I am
+flexible here...
+
+Correct toString method implementation (1 point)
+
+Question 2 - 2 points
+
+Conceptually, IDs are not to be counted as
+an equals() factor. Looking at motorcycle accessories matching might be a bit
+challenging. The best way is to sort the arrays of strings and compare them
+one by one.
+
+Part II - 5 points
+
+Question 1
+
+a. 1 point. Create the vehicle objects. Self explanatory. Make sure they
+line up with what the instructions say
+
+b. 1 point.  Sum up the cargo space values and divide by the number of objects to get the result`
+
+c. 2 points. There are different ways of doing this. One way is to use a for loop
+and record the indexes for which equals() is true, and then delete those items. Another way
+is a while loop that selectively increments the index depending on whether a matching item
+is found and removed or not. Remove one point if you don't mark which item is the SAME
+object as the first blue car.
+
+d. 1 point. Pretty straightforward. The remaining objects shouldn't have
+blue cars in it.
